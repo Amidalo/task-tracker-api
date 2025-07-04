@@ -28,7 +28,7 @@ public class TaskStateEntity {
     @Builder.Default
     Instant createdAt = Instant.now();
 
-    Long order;
+    Long ordinal;
 
     @Builder.Default
     @OneToMany
